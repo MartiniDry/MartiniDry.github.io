@@ -1,20 +1,68 @@
-# rosty.github.io
-# Site web pour présenter mon profil et mes projets personnels
+<!--rosty.github.io-->
+<!--Site web pour présenter mon profil et mes projets personnels-->
 
 <!DOCTYPE html>
 
 <html>
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-		
-		<title>Binvenue !</title>
+		<link rel="stylesheet" href="index_style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<title>Bienvenue !</title>
 	</head>
 
 	<body>
-		<h1>Phrase de test</h1>
-		<p>Le site web arrive bientôt :)</p>
+		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+		<script src="index.js"></script>
+		
+		<header>
+			<div class="container">
+				<h1>Nom du site</h1>
+				<h2>Cette appli est en cours de développement :)</h2>
+				<a class="btn">Ne rien faire</a>
+				<div class="submenu">
+					<a href="#">Rien n°1</a>
+					<a href="#">Rien n°2</a>
+				</div>
+			</div>
+		</header>
+		
+		<section class="features">
+			<div class="container">
+				<div class="feature">
+					<img src="img_blue_pin.png" alt=""/>
+					<p>Caractéristique n°1</p>
+				</div>
+				
+				<div class="feature">
+					<img src="img_blue_chart.png" alt=""/>
+					<p>Caractéristique n°2</p>
+				</div>
+				
+				<div class="feature">
+					<img src="img_blue_msg.png" alt=""/>
+					<p>Caractéristique n°3</p>
+				</div>
+			</div>
+		</section>
+		
+		<section class="quote">
+			<blockquote class="container">
+				<p>"Ceci est une citation !"</p>
+				<cite>Créateur de la page</cite>
+			</blockquote>
+		</section>
+		
+		<footer>
+			<div class="container">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contacts</a></li>
+				</ul>
+				
+				<p>© All rights reserved.</p>
+			</div>
+		</footer>
 	</body>
 </html>
